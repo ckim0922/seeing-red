@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.04@sha256:63986ce572d0e7b2268073c863561cb001ef3cb15ef69c45c1d890f7262e1bdf
 
 # avoid questions when installing stuff in apt-get
 ARG DEBIAN_FRONTEND=noninteractive
